@@ -20,6 +20,7 @@ abstract class Personnage {
       this.intelligence = intelligence;
    }
 
+
    public abstract void startGame();
 
    public String getName() {
