@@ -7,7 +7,7 @@ abstract class Personnage {
    protected int strength;
    private int agility;
    private int endurance;
-   private int intelligence;
+   protected int intelligence;
 
    public Personnage(String name, String race, String equipmentType, int lvl, int strength, int agility, int endurance, int intelligence) {
       this.name = name;
