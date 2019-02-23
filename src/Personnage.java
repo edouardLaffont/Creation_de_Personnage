@@ -5,8 +5,8 @@ abstract class Personnage {
    protected String equipmentType;
    protected int lvl;
    protected int strength;
-   private int agility;
-   private int endurance;
+   protected int agility;
+   protected int endurance;
    protected int intelligence;
 
    public Personnage(String name, String race, String equipmentType, int lvl, int strength, int agility, int endurance, int intelligence) {

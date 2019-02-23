@@ -31,6 +31,8 @@ public class NouveauJeu {
                 break;
             case 3:
                 System.out.println("Vous avez choisi : Voleur");
+                Personnage rogue = new Rogue("Tierce","Humain","Cuir",1,10,10,10,10,10,"Ombre du Voleur","Dagues");
+                rogue.startGame();
                 break;
         }
     }
