@@ -19,7 +19,7 @@ public class Rogue extends Personnage {
         System.out.println("Il est de la race " + race + ".");
         System.out.println("Son type d'arme de prédilection est un(e) " + rogueWeapon + " et il porte du " + equipmentType + " comme armure.");
         System.out.println("Son niveau actuel est : " + lvl + ".");
-        System.out.println("Il dispose de " + rogueShadow + " points de souplesse.");
+        System.out.println("Il dispose de " + souplesse + " points de souplesse.");
         System.out.println("C'est un voleur et il dispose donc d'une agilité de " + agility + " : elle est bien supérieur aux autres classes !");
 
     }
